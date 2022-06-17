@@ -1,0 +1,5 @@
+{
+    "previous_video" : "[data-e2e='arrow-left']",
+    "next_video" : "[data-e2e='arrow-right']",
+    "comments" : "//*[@id='app']/div[2]/div[3]/div[2]"
+}

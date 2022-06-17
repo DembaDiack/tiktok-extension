@@ -1,0 +1,3 @@
+[submodule "tiktok-extension-build"]
+	path = tiktok-extension-build
+	url = https://github.com/DembaDiack/tiktok-extension-build
