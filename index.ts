@@ -1,6 +1,7 @@
 import clickButtonWhenVideoEnds from "./helpers/clickButtonWhenVideoEnds";
 import injectButton from "./helpers/InjectButton";
 import { getSettings, setSetting } from "./helpers/settings";
+import toggleFullScreen from "./helpers/toggleFullScreen";
 
 console.log("hooking srviceWorkerMain.ts");
 
@@ -20,3 +21,6 @@ if(!chrome.tabs.onUpdated.hasListener(handleUpdated))
   clickButtonWhenVideoEnds();
 }
 
+chrome.action.onClicked.addListener(function(tab) {
+  toggleFullScreen();
+});
