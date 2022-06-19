@@ -2,7 +2,7 @@ module.exports = {
     entry: './index.ts',
     output: {
         filename: 'main.js',
-        path: "C:\\Users\\Diackichan\\Desktop\\loop-tik\\tiktok-extension-build"
+        path: "C:\\tiktok-extension\\tiktok-extension-build"
     },
     module: {
         rules: [
